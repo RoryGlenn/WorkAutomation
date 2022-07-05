@@ -4,7 +4,6 @@ from winwifi import WinWiFi
 from time import sleep
 
 
-WIFI_SSID = "SENAHOUSE 5G FL-3A"
 
 
 def is_internet_connected() -> bool:
