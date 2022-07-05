@@ -66,7 +66,7 @@ class Work:
 
     def activate_process(self, process_name: str) -> None:
         self.logger.debug(f"Activating process {process_name}")
-        cmd = f"C:/Users/RGlenn3/AppData/Local/Microsoft/Teams/Update.exe --processStart {process_name}"
+        cmd = f"AppData/Local/Microsoft/Teams/Update.exe --processStart {process_name}"
         self.logger.debug(cmd)
         result = system(cmd)
 
